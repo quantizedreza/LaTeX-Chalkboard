@@ -20,11 +20,11 @@ def compile_latex(tex_file):
 
 def main():
     tex_file = "main.tex"
-    bg_file = "background.jpg"
+    bg_file = "background.png" #Can be any background but for scale, change the DPI
     output_file = "output_blackboard.png"
     
     if not Path(tex_file).exists() or not Path(bg_file).exists():
-        print("Missing .tex or background.jpg")
+        print("Missing .tex or background.png")
         return
     
     pdf_path = compile_latex(tex_file)
