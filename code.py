@@ -24,7 +24,7 @@ def main():
     output_file = "output_blackboard.png"
     
     if not Path(tex_file).exists() or not Path(bg_file).exists():
-        print("Missing example.tex or background.jpg")
+        print("Missing .tex or background.jpg")
         return
     
     pdf_path = compile_latex(tex_file)
@@ -33,7 +33,7 @@ def main():
         return
     
     # Convert PDF to image
-    page = convert_from_path(pdf_path, dpi=400)[0]
+    page = convert_from_path(pdf_path, dpi=800)[0]
     
     # Create clean white chalk effect
     gray = page.convert("L")
