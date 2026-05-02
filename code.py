@@ -19,7 +19,7 @@ def compile_latex(tex_file):
 
 
 def main():
-    tex_file = "example.tex"
+    tex_file = "main.tex"
     bg_file = "background.jpg"
     output_file = "output_blackboard.png"
     
