@@ -9,3 +9,4 @@ code.py
 # 3- Enjoy!
 <img width="998" height="775" alt="Screenshot from 2026-05-01 17-43-26" src="https://github.com/user-attachments/assets/94cbbd82-eb97-4724-b4db-f0311528cad5" />
 
+Need to have LaTeX compiler installed already. 
